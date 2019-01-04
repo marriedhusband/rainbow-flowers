@@ -1,1 +1,84 @@
-body {  font: normal 1em Helvetica, "Arial Nova", Arial, sans-serif}
+body {
+	font: normal 1em Helvetica, "Arial Nova", Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	}
+#page {
+	width: 100%;
+	max-width: 100%;
+	min-width: 414px;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	}
+.innercolumn {
+	padding: 37px;
+	margin: 0;
+	}
+#logo span {
+	display: none;
+	}
+#logo {
+	width: 50%;
+	min-width: 127px;
+	height: auto;
+	min-height: 45px;
+	background-image: url(../assets/logo_color.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: auto;
+	float:left;
+	margin: 0;
+	padding: 0;
+	}
+#socials {
+	float: right;
+	width: 50%;
+	text-align: right;
+	}
+#socials span {
+	display: none;
+	}
+#socials a#twitter:link, #socials a#twitter:visited {
+	width: 36px;
+	height: 36px;
+	background-image: url(../assets/twitter.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: auto;
+	display: inline-block;
+	margin-right: 10px
+	}
+#socials a#twitter:hover, #socials a#twitter:active {
+	width: 36px;
+	height: 36px;
+	background-image: url(../assets/twitter_color.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: auto;
+	display: inline-block;
+	margin-right: 10px;
+	}
+#socials a#instagram:link, #socials a#instagram:visited {
+	width: 36px;
+	height: 36px;
+	background-image: url(../assets/instagram.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: auto;
+	display: inline-block;
+	}
+#socials a#instagram:hover, #socials a#instagram:active {
+	width: 36px;
+	height: 36px;
+	background-image: url(../assets/instagram_color.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: auto;
+	display: inline-block;
+	}
+
+.clear {
+	clear: both;
+	}
