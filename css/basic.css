@@ -13,7 +13,7 @@ body {
 	text-align: left;
 	}
 .innercolumn {
-	padding: 37px;
+	padding: 49px;
 	margin: 0;
 	}
 #logo span {
@@ -82,3 +82,47 @@ body {
 .clear {
 	clear: both;
 	}
+img {
+	border: 0;
+	width: auto;
+	height: auto;
+	}
+figure {
+	padding: 0;
+	margin: 0;
+	}
+#intro_image {
+	margin-left: 37px;
+	}
+#enter_link a span {
+	display: none;
+	}
+#enter_link a:link, #enter_link a:visited {
+	width: 50%;
+	min-width: 68px;
+	height: auto;
+	min-height: 25px;
+	background-image: url(../assets/enter.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: auto;
+	float:left;
+	margin: 0;
+	padding: 0;
+	margin-left: 37px;
+	}
+#enter_link a:hover, #enter_link a:active {
+	width: 50%;
+	min-width: 68px;
+	height: auto;
+	min-height: 25px;
+	background-image: url(../assets/enter_color.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: auto;
+	float:left;
+	margin: 0;
+	padding: 0;
+	margin-left: 37px;
+	}
+
