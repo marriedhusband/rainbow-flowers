@@ -108,16 +108,10 @@ figure {
 	background-image: url(../assets/enter.png);
 	background-position: 0 100%;
 	}
-#footer {
-	width: calc(100% - 80px);
-	background: #EFEFEF;
-	margin: 0;
-	padding: 40px;
-	}
 }
 
 
-@media screen and (min-width: 769px) {
+/*@media screen and (min-width: 769px) {*/
 body {
 	font: normal 1em Helvetica, "Arial Nova", Arial, sans-serif;
 	margin: 0;
@@ -231,6 +225,29 @@ figure {
 	width: calc(100% - 80px);
 	background: #EFEFEF;
 	margin: 0;
-	padding: 40px;
+	padding: 20px 40px;
+	margin-top: 18px;
+	font-size: 70%;
 	}
-}
+#footer .innercolumn {
+	padding: 0 40px;
+	}
+p {
+	margin: 0;
+	padding: 0;
+	line-height: 140%;
+	}
+#made_with {
+	margin-top: 20px;
+	}
+#made_with figure {
+	display: inline-block;
+	padding: 0 0 8px;
+	margin: 0;
+	vertical-align: top;
+	}
+#made_with figure img {
+	width: 95%;
+	height: auto;
+	}
+/*}*/
