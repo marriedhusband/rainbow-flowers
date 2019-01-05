@@ -20,8 +20,8 @@ body {
 	display: none;
 	}
 #logo {
-	width: 127px;
-	height: 45px;
+	width: 95px;
+	height: 35px;
 	background-image: url(../assets/logo_color.png);
 	background-position: 0 0;
 	background-repeat: no-repeat;
@@ -39,8 +39,8 @@ body {
 	display: none;
 	}
 #socials a#twitter:link, #socials a#twitter:visited {
-	width: 36px;
-	height: 36px;
+	width: 32px;
+	height: 32px;
 	background-image: url(../assets/twitter.png);
 	background-position: 0 0;
 	background-repeat: no-repeat;
@@ -49,18 +49,12 @@ body {
 	margin-right: 10px
 	}
 #socials a#twitter:hover, #socials a#twitter:active {
-	width: 36px;
-	height: 36px;
 	background-image: url(../assets/twitter.png);
 	background-position: 0 100%;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	display: inline-block;
-	margin-right: 10px;
 	}
 #socials a#instagram:link, #socials a#instagram:visited {
-	width: 36px;
-	height: 36px;
+	width: 32px;
+	height: 32px;
 	background-image: url(../assets/instagram.png);
 	background-position: 0 0;
 	background-repeat: no-repeat;
@@ -68,13 +62,8 @@ body {
 	display: inline-block;
 	}
 #socials a#instagram:hover, #socials a#instagram:active {
-	width: 36px;
-	height: 36px;
 	background-image: url(../assets/instagram.png);
 	background-position: 0 100%;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	display: inline-block;
 	}
 
 .clear {
