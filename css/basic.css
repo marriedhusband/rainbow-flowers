@@ -83,7 +83,7 @@ body {
 img {
 	border: 0;
 	width: auto;
-	max-width: 85%;
+	max-width: calc(100% - 74px);
 	height: auto;
 	}
 figure {
