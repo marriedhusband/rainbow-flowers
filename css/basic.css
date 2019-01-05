@@ -14,7 +14,7 @@ body {
 	text-align: left;
 	}
 .innercolumn {
-	padding: 49px;
+	padding: 40px;
 	margin: 0;
 	}
 #logo span {
@@ -66,43 +66,53 @@ body {
 	background-image: url(../assets/instagram.png);
 	background-position: 0 100%;
 	}
-
 .clear {
 	clear: both;
 	}
 img {
 	border: 0;
 	width: auto;
-	max-width: calc(100% - 74px);
+	max-width: 100%;
 	height: auto;
 	}
 figure {
 	padding: 0;
 	margin: 0;
 	}
-#intro_image {
-	margin-left: 37px;
+.intro {
+	background-image: url(../assets/intro_animation_3.gif);
+	background-size: 100%;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	}
+.intro_image {
+	margin-left: 40px;
+	max-width: calc(100% - 80px);
 	}
 #enter_link a span {
 	display: none;
 	}
 #enter_link a:link, #enter_link a:visited {
-	width: 48px;
+	width: 37px;
 	height: 21px;
 	background-image: url(../assets/enter.png);
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	float:left;
+	float: left;
 	margin: 0;
 	padding: 0;
-	margin-left: 37px;
+	margin-left: 40px;
 	}
 #enter_link a:hover, #enter_link a:active {
-	width: 48px;
-	height: 21px;
 	background-image: url(../assets/enter.png);
 	background-position: 0 100%;
+	}
+#footer {
+	width: calc(100% - 80px);
+	background: #EFEFEF;
+	margin: 0;
+	padding: 40px;
 	}
 }
 
@@ -117,12 +127,13 @@ body {
 #page {
 	width: 800px;
 	max-width: 100%;
+	min-width: 320px;
 	padding: 0;
 	margin: 0;
 	text-align: left;
 	}
 .innercolumn {
-	padding: 49px;
+	padding: 40px;
 	margin: 0;
 	}
 #logo span {
@@ -174,44 +185,52 @@ body {
 	background-image: url(../assets/instagram.png);
 	background-position: 0 100%;
 	}
-
 .clear {
 	clear: both;
 	}
 img {
 	border: 0;
 	width: auto;
-	max-width: calc(100% - 74px);
+	max-width: 100%;
 	height: auto;
 	}
 figure {
 	padding: 0;
 	margin: 0;
 	}
-#intro_image {
-	margin-left: 37px;
+.intro {
+	background-image: url(../assets/intro_animation_3.gif);
+	background-size: 100%;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	}
+.intro_image {
+	margin-left: 40px;
+	max-width: calc(100% - 80px);
 	}
 #enter_link a span {
 	display: none;
 	}
 #enter_link a:link, #enter_link a:visited {
-	width: 48px;
+	width: 37px;
 	height: 21px;
 	background-image: url(../assets/enter.png);
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	float:left;
+	float: left;
 	margin: 0;
 	padding: 0;
-	margin-left: 37px;
+	margin-left: 40px;
 	}
 #enter_link a:hover, #enter_link a:active {
-	width: 48px;
-	height: 21px;
 	background-image: url(../assets/enter.png);
 	background-position: 0 100%;
 	}
+#footer {
+	width: calc(100% - 80px);
+	background: #EFEFEF;
+	margin: 0;
+	padding: 40px;
+	}
 }
-
-
