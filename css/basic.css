@@ -1,3 +1,4 @@
+@media screen and (max-width: 768px) {
 body {
 	font: normal 1em Helvetica, "Arial Nova", Arial, sans-serif;
 	margin: 0;
@@ -103,4 +104,114 @@ figure {
 	background-image: url(../assets/enter.png);
 	background-position: 0 100%;
 	}
+}
+
+
+@media screen and (min-width: 769px) {
+body {
+	font: normal 1em Helvetica, "Arial Nova", Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	}
+#page {
+	width: 800px;
+	max-width: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	}
+.innercolumn {
+	padding: 49px;
+	margin: 0;
+	}
+#logo span {
+	display: none;
+	}
+#logo {
+	width: 95px;
+	height: 35px;
+	background-image: url(../assets/logo_color.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	float:left;
+	margin: 0;
+	padding: 0;
+	}
+#socials {
+	float: right;
+	width: 50%;
+	text-align: right;
+	}
+#socials span {
+	display: none;
+	}
+#socials a#twitter:link, #socials a#twitter:visited {
+	width: 32px;
+	height: 32px;
+	background-image: url(../assets/twitter.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: inline-block;
+	margin-right: 10px
+	}
+#socials a#twitter:hover, #socials a#twitter:active {
+	background-image: url(../assets/twitter.png);
+	background-position: 0 100%;
+	}
+#socials a#instagram:link, #socials a#instagram:visited {
+	width: 32px;
+	height: 32px;
+	background-image: url(../assets/instagram.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: inline-block;
+	}
+#socials a#instagram:hover, #socials a#instagram:active {
+	background-image: url(../assets/instagram.png);
+	background-position: 0 100%;
+	}
+
+.clear {
+	clear: both;
+	}
+img {
+	border: 0;
+	width: auto;
+	max-width: calc(100% - 74px);
+	height: auto;
+	}
+figure {
+	padding: 0;
+	margin: 0;
+	}
+#intro_image {
+	margin-left: 37px;
+	}
+#enter_link a span {
+	display: none;
+	}
+#enter_link a:link, #enter_link a:visited {
+	width: 48px;
+	height: 21px;
+	background-image: url(../assets/enter.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	float:left;
+	margin: 0;
+	padding: 0;
+	margin-left: 37px;
+	}
+#enter_link a:hover, #enter_link a:active {
+	width: 48px;
+	height: 21px;
+	background-image: url(../assets/enter.png);
+	background-position: 0 100%;
+	}
+}
+
 
